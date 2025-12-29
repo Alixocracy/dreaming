@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Play, Pause, Volume2, VolumeX } from "lucide-react";
+import { Play, Pause, Volume2, VolumeX, Download } from "lucide-react";
 
 interface AudioPlayerProps {
   src: string;
@@ -118,7 +118,7 @@ export const AudioPlayer = ({ src, title = "Dreamer", artist = "Ava" }: AudioPla
         <button
           onClick={togglePlay}
           className={`p-5 rounded-full transition-all duration-500 ${
-            isPlaying 
+            isPlaying
               ? "bg-primary/20 text-primary shadow-[0_0_30px_hsl(var(--primary)/0.3)]" 
               : "bg-primary text-primary-foreground hover:shadow-[0_0_40px_hsl(var(--primary)/0.4)]"
           } animate-breathe`}
@@ -127,7 +127,13 @@ export const AudioPlayer = ({ src, title = "Dreamer", artist = "Ava" }: AudioPla
           {isPlaying ? <Pause size={28} /> : <Play size={28} className="ml-1" />}
         </button>
 
-        <div className="p-3 w-11" /> {/* Spacer for symmetry */}
+        <a
+          href={src}
+          download={`${title} - ${artist}.mp3`}
+          className="p-3 rounded-full bg-muted/50 hover:bg-muted transition-all duration-300 text-foreground/70 hover:text-foreground"
+        >
+          <Download size={20} />
+        </a>
       </div>
     </div>
   );
