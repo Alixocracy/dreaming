@@ -29,7 +29,7 @@ const Index = () => {
           <h1 className="font-display text-5xl md:text-7xl font-light text-foreground tracking-wider mb-4">
             Find Your
             <span className="block mt-2 bg-gradient-to-r from-calm-ocean via-calm-glow to-calm-twilight bg-clip-text text-transparent">
-              Calm
+              Dream
             </span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl font-light tracking-wide animate-fade-in-up animation-delay-200">
