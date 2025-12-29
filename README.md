@@ -1,30 +1,35 @@
-# I was lost in your dream
+# *I was lost in your dream*
 
-## Was it a nightmare?
-## Was it a dream?
+---
 
-.
-.
-.
-.
+> **Was it a nightmare?**  
+> **Was it a dream?**
 
-> I believe
-> I live
-> I dream
-> I dream ...
+&nbsp;
 
-## I live
-## I live
-## I dream
-## I live
-## I believe
-## I live
-## I believe
-## I live
+---
 
-.
-.
-.
+> **I believe**  
+> **I live**  
+> **I dream**  
+> **I dream…**
 
-## In your love
-## In your eyes
+&nbsp;  
+
+---
+
+> **I live**
+> **I live**  
+> **I dream** 
+> **I live**  
+> **I believe**  
+> **I live**  
+> **I believe**  
+> **I live**
+
+&nbsp;  
+
+---
+
+> *In your love*  
+> *In your eyes*
